@@ -1,0 +1,81 @@
+div#menu{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.menu_frame{
+    background-color: #f0f0f0;
+    width: 250px;
+    height: 300px;
+    display: inline-block;
+    text-align: left;
+    margin: 0 35px 35px 0;
+    position: relative;
+    padding: 8px;
+}
+
+.menu_frame h3{
+    margin: 0;
+}
+
+.menu_frame div.img{
+    border-radius: 200px;
+    width: 180px;
+    height: 180px;
+    background-color: white;
+    margin: auto;
+
+    background-position: center;
+    background-size: 120%;
+}
+
+.menu_frame button.purchase{
+    width: 100%;
+    padding: 5px;
+    color:white;
+    font-size: 1.3rem;
+    background-color: teal;
+    position: absolute;
+    right: 0;
+    border: 0;
+    bottom: 0;
+    text-transform: uppercase;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.menu_frame button.purchase:hover{transform: scale(1.01); filter: brightness(120%);}
+.menu_frame button.purchase:active{transform: scale(0.95); }
+
+
+div#add_order{
+    background-color: #f2f2f2;
+    min-height: 500px;
+    min-width: 500px;
+    margin: auto;
+    width: 80%;
+}
+
+
+div#add_order thead{
+    background-color: #c3e1c6;
+
+    
+}
+
+div#add_order div.food-img{
+    border-radius: 200px;
+    width: 130px;
+    height: 130px;
+    background-color: white;
+    margin: auto;
+    display: inline-grid;
+    align-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    background-position: center;
+    background-size: 120%;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+

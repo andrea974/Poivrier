@@ -1,0 +1,88 @@
+#order{
+    width: 55%;
+    margin: auto;
+}
+
+h2{
+    margin-top: 160px;
+    margin-bottom: 0px;
+}
+
+.recap{
+    float: left;
+    margin-top: 34px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    box-shadow: 2px 2px 5px gray;
+    
+}
+
+hr{
+	margin: 20px 0;
+	border-width: 0 0 1px;
+	border-image: linear-gradient(90deg, rgba(135, 206, 235, 0), #0c736c 50%, rgba(135, 206, 235, 0) 100%) 0 0 100%;
+	border-style: solid;
+}
+
+.price{
+    float: right;
+    margin-top: 34px;
+    margin-right: 50px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+
+
+input[type="number"]{
+    width: 30px;
+    margin-left: 100px;
+    padding: 5px;
+}
+
+button{
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+    border: solid 2px #0c736c;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.05);
+    background-color: #0c736c;
+    color: white;
+}
+
+.imgProd{
+    box-shadow: 2px 2px 5px grey;
+}
+
+tr, td{
+    text-align: center;
+    padding: 20px;
+}
+
+tr{
+    position: relative;
+}
+
+.close{
+
+	position: absolute;
+	font-size: 35px;
+	cursor: pointer;
+    color: black;
+    margin-top: 0;
+    top: 0;
+    right: 0;
+}
+
+.imgClose{
+    width: 22px;
+}
+
+.imgClose:hover{
+    transform: scale(1.05);
+}
