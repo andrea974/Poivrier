@@ -11,4 +11,4 @@
 
    </div>
 </header>
-<img style="opacity:0.1" class="header" src="public/media/poivrier/logov2.png"> 
+<img class="header" src="public/media/poivrier/logov2.png"> 
