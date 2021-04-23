@@ -2,7 +2,7 @@
    <div class="network">
          <div> 
             <img src="public/media/poivrier/fb_icon.png">
-            <a href="https://www.facebook.com/Le-POIVRIER-759041820877404">FACEBOOK</a>      
+            <a href="#">FACEBOOK</a>      
          </div>
          <div> 
             <img src="public/media/poivrier/insta_icon.png">
